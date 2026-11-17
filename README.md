@@ -29,7 +29,6 @@ margins to none and turn on background graphics; you get one slide per page.
 | `fonts/` | Latin Modern Roman and Latin Modern Math (GUST Font License). |
 | `apps/cycles/` | The interactive cycle viewer on slide 12: `index.html`, `cycles.css`, `cycles.js`, `data.js`. |
 | `figures/corrected/` | Persistence-diagram figures used on slides 1, 10 and 11, as SVG (used by the slides) and PNG. |
-| `figures/data/pd_histograms.json` | Whole-box 2-D histograms of the H1 and H2 diagrams at 5000 K and 10000 K. |
 | `figures/legacy/` | The old, incorrect pictures. |
 
 
