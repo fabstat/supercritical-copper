@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cycle viewer</title>
+<link rel="stylesheet" href="cycles.css">
+</head>
+<body>
+<div id="app">
+  <div id="controls">
+    <div class="group" id="gT" role="group" aria-label="temperature"></div>
+    <div class="group" id="gD" role="group" aria-label="dimension"></div>
+    <div class="group" id="gB" role="group" aria-label="lifetime band"></div>
+    <div class="group" id="gA" role="group" aria-label="automatic tour"></div>
+  </div>
+  <div id="views">
+    <canvas id="pd" width="470" height="450" aria-label="sampled persistence diagram; click a ringed point"></canvas>
+    <canvas id="atoms" width="860" height="450" aria-label="representative cycle among nearby atoms; drag to rotate"></canvas>
+  </div>
+</div>
+<script src="data.js"></script>
+<script src="cycles.js"></script>
+</body>
+</html>

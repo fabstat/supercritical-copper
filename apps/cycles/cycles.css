@@ -1,0 +1,18 @@
+@font-face{font-family:'LM Roman';font-weight:400;src:url(../../fonts/lmroman10-regular.otf);font-display:block}
+@font-face{font-family:'LM Roman';font-weight:700;src:url(../../fonts/lmroman10-bold.otf);font-display:block}
+
+:root{--bg:#0B1120;--panel:#141C30;--text:#EDF1FA;--muted:#B4BFD6;--rule:#5B6785}
+html,body{height:100%;margin:0;overflow:hidden;background:transparent;font-family:'LM Roman',serif;color:var(--text)}
+body.standalone{background:var(--bg);overflow:auto}
+body.standalone #app{width:1350px;margin:24px auto;transform-origin:top center}
+
+#controls{display:flex;gap:16px;align-items:center;height:52px}
+.group{display:flex;border:2px solid var(--rule);border-radius:8px;overflow:hidden}
+button{white-space:nowrap;font:700 27px/1.2 'LM Roman',serif;padding:6px 16px;border:0;background:var(--panel);color:var(--text);cursor:pointer}
+button.on{background:var(--text);color:var(--bg)}
+button:focus-visible{outline:3px solid #6EA2FF;outline-offset:-3px}
+
+#views{display:flex;gap:20px}
+canvas{display:block}
+#atoms{cursor:grab;touch-action:none}
+#pd{cursor:pointer}

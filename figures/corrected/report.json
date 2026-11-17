@@ -1,0 +1,20 @@
+{
+ "H1": {
+  "pairs_5000": 1901387,
+  "pairs_10000": 1607005,
+  "occupied_5000": 660,
+  "occupied_10000": 1302,
+  "below_diagonal": 0.0,
+  "color_scale_max": 100000.0,
+  "diff_max": 16321.065835581867
+ },
+ "H2": {
+  "pairs_5000": 989862,
+  "pairs_10000": 760026,
+  "occupied_5000": 1231,
+  "occupied_10000": 2520,
+  "below_diagonal": 0.0,
+  "color_scale_max": 100000.0,
+  "diff_max": 19522.493400615756
+ }
+}
