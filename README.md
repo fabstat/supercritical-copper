@@ -3,7 +3,8 @@
 Fabiana Ferracina · Tohoku University · TDA Week 2026, Sendai
 
 This is a talk of 27 slides: 23 in the talk and 4 held in reserve. It is plain HTML, CSS and
-JavaScript, with no build step, no libraries and no requests to any server. 
+JavaScript, with no build step, no libraries and no requests to any server. You can see the slides at 
+[fabstat.github.io/supercritical-copper](https://fabstat.github.io/supercritical-copper/)
 
 | Key | Action |
 |---|---|
@@ -30,7 +31,6 @@ margins to none and turn on background graphics; you get one slide per page.
 | `apps/cycles/` | The interactive cycle viewer on slide 12: `index.html`, `cycles.css`, `cycles.js`, `data.js`. |
 | `figures/corrected/` | Persistence-diagram figures used on slides 1, 10 and 11, as SVG (used by the slides) and PNG. |
 | `figures/legacy/` | The old, incorrect pictures. |
-
 
 Paper: F. Ferracina, A. K. A. Lu, X. N. Du, N. Chen, M. I. Ojovan, H. Suito, D. V. Louzguine-Luzgin,
 "Viscosity rise of supercritical liquid copper above the Frenkel line and related structural
